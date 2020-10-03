@@ -35,6 +35,10 @@
                         </div>
                     </div>
                 </div><!-- /post -->
+                <div class="navigation">
+                    <div class="prev">prev</div>
+                    <div class="next">next</div>
+                </div>
             </div><!-- /posts -->
             <div id="sidebar">
                 <div class="widget">

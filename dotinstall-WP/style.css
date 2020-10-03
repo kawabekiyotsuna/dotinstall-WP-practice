@@ -1,3 +1,15 @@
+/*
+Theme Name: dotinstall-WP
+Theme URI: http://dotinstall.com
+Author: kiyotsuna
+Author URI: http://dotinstall.com
+Description: dotinstall
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+*/
+
 body {
     font-size: 14px;
     font-family: Arial, Verdana;
@@ -95,6 +107,26 @@ p {
                 margin-left: 115px;
             }
 
+/* navigation */
+
+.navigation {
+    overflow: hidden;
+    padding: 10px 0;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+    .prev {
+        float: left;
+        width: 200px;
+    }
+
+    .next {
+        float: right;
+        width: 200px;
+        text-align: right;
+    }
+
 /* sidebar */
 
 #sidebar {
@@ -103,11 +135,12 @@ p {
 }
 
     .widget {
-
+        margin-bottom: 25px;
     }
 
         .widget h3 {
             font-weight: bold;
+            padding-bottom: 7px;
         }
 
         .widget li {
